@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: extension-example
+  data:
+    mongodb:
+      uri: ${mongodb_uri}
+      database: ${mongodb_database}
+
+server:
+  port: 10946
